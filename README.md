@@ -66,4 +66,14 @@ As ferramentas abaixo apoiam atividades futuras; não são requisitos para ler a
 - Umeyama (1991), *Least-Squares Estimation of Transformation Parameters Between Two Point Patterns*, IEEE TPAMI, 13(4), 376–380 (DOI: 10.1109/34.88573).
 - ESA, *Introduction to a SAR System*.
 
-A ISO/TS 19130-2:2014 fundamenta modelos físicos e metadados de geoposicionamento. Ela não é um manual completo de filtragem, classificação ou registro; nesses temas, as células indicam referências complementares. A edição de 2014 é citada por ser o exemplar consultado, sem presumir que seja a edição vigente. O PDF de consulta não integra o material distribuído e os notebooks não dependem de sua presença no diretório.
+<!--
+git pull sa main
+git add * ; git commit -m "aula update"; git push ajustamento main
+jupyter nbconvert --to slides 05_mmq_weighted.ipynb --TagRemovePreprocessor.remove_input_tags="hide_input" --SlidesExporter.reveal_scroll=True --post serve
+
+reset
+git init
+git remote add sa https://github.com/HumbertoDiego/SensoresAtivosIME
+git add * ; git commit -m "aula update"; git push sa main --force
+-->
+
