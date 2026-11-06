@@ -52,6 +52,36 @@ As ferramentas abaixo apoiam atividades futuras; não são requisitos para ler a
 - CloudCompare: inspeção e processamento de nuvens.
 - laspy: leitura e escrita LAS/LAZ; Open3D: geometria e registro; scikit-learn: classificação e métricas; PyTorch: modelos de aprendizado profundo.
 
+## DICAS PARA GERENCIAR MÚLTIPLAS VERSÕES PYTHON:
+
+- Instale o [Python Install Manager](https://www.python.org/downloads/)
+```powershell
+> py install 3.9 3.10 3.11 3.12 3.14 # Instala as versões python de 3.9 a 3.14
+> python --version # Python 3.14.5
+> $Env:PYTHON_MANAGER_DEFAULT = "3.12" # Altera a versão para esta seção de terminal apenas
+> python --version # Python 3.12.10 --> Daqui pode-se criar o ambiente
+```
+- Após criar o ambiente, verifique se está usando uma cópia do Python 3.12 da pasta `.venv`:
+```powershell
+> python -c "import sys; print(sys.executable)" # C:\Users\...\Python\pythoncore-3.12-64\python.exe
+> python -m venv .venv
+> .\.venv\Scripts\Activate.ps1 
+(.venv) > python -c "import sys; print(sys.executable)" # ...\cdg-ime\.venv\Scripts\python.exe
+```
+
+CRIAR O AMBIENTE:
+
+```powershell
+> python -m venv .venv
+> .\.venv\Scripts\Activate.ps1 
+(.venv) > python -m pip install --upgrade pip
+(.venv) > python -m pip install -r requirements.txt
+```
+
+SELECIONAR O KERNEL NO VS CODE:
+
+- `Select Kernel` > `Python Environments...` > `.venv\Scripts\python.exe`
+
 ## Referências
 
 - ISO/TS 19130-2:2014, *Geographic information — Imagery sensor models for geopositioning — Part 2: SAR, InSAR, lidar and sonar*.

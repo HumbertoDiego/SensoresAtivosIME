@@ -1,0 +1,4 @@
+# Jupyter kernel
+ipykernel>=7.2,<8
+jupyter_client>=8.6,<9
+nbconvert>=7.17,<8
