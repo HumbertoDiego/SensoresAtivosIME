@@ -4,7 +4,15 @@ Aulas de Sensores Ativos (RADAR e LiDAR) para o 5º ano do Curso de Engenharia C
 
 **Maj Diego · 1º semestre de 2027**
 
-O curso aborda aquisição, geometria, processamento e interpretação de dados ativos, com ênfase em produtos cartográficos e controle de qualidade. Os 11 notebooks seguem a sequência do plano abaixo.
+ORIGEM DA DISCIPLINA
+
+- Projeto Radiografia da Amazônia (2007/2008): um olhar para os sensores ativos [ineficácia óptica];
+- Quebra de paradigma (DSG): produção x recursos humanos e tecnológicos;
+- Suporte a pesquisas envolvendo busca de soluções para o mapeamento amazônico.
+
+NECESSIDADE DE ALTERAÇÕES
+- Ensino por competências: caráter menos eletrônico, mais cartográfico/ambiental [aplicado];
+- Tendências na Geoinformação: acréscimo de tópicos referentes a LiDAR; avanço das IA's;
 
 ![Plano do semestre](media/imgs/Sensores%20Ativos.png)
 
@@ -23,23 +31,6 @@ O curso aborda aquisição, geometria, processamento e interpretação de dados 
 | 9 | [Registro I — referenciais, transformações e pontos homólogos](09_transformacoes_registro.ipynb) | Distinguir mudança de referencial e registro geométrico; Compor e inverter transformações entre espaços; Estimar transformação rígida por pontos homólogos. |
 | 10 | [Registro II — Iterative Closest Point e validação](10_icp.ipynb) | Explicar o ciclo de otimização ICP; Comparar funções objetivo e estratégias robustas; Validar registro e preparar a prática. |
 | 11 | [Classificação LiDAR — atributos, modelos e avaliação](11_classificacao_lidar.ipynb) | Construir atributos e uma legenda semântica; Comparar modelos e organizar treinamento e inferência; Avaliar classes e discutir limitações cartográficas. |
-
-## Organização e avaliações
-
-- Aulas 1–5: fundamentos, processamento e classificação SAR.
-- **1ª VE prática:** classificação SAR, com treinamento, validação, teste, métricas e inferência, conforme a aula 5.
-- Aula 6: PolSAR e InSAR, fase, relevo e aplicações.
-- Aulas 7–8: LiDAR, pré-processamento e descritores de forma.
-- Aulas 9–10: registro, transformações entre espaços, pontos homólogos e ICP.
-- **2ª VE prática:** registro e transformações entre espaços, conforme as aulas 9–10.
-- Aula 11: classificação LiDAR e discussão integrada.
-- **VC e VF:** indicadas no plano do semestre. Datas, pesos e enunciados serão definidos pelo docente.
-
-A divisão dos temas que ocupam dois encontros no mapa é: processamento SAR I/II, LiDAR I/II e registro I/II. Cada notebook contém navegação para o sumário, título, autoria, objetivos, referências, problema apresentado com esquema em Markdown e LaTeX e desenvolvimento teórico com numeração correspondente aos objetivos. Os notebooks são teóricos e não exigem execução de código ou instalação de bibliotecas.
-
-## Como estudar
-
-Abra o notebook pelo sumário em JupyterLab ou VS Code com a extensão Jupyter. Todos os links de arquivos são relativos ao repositório. As imagens são locais e os esquemas estão escritos nas próprias células em Markdown e LaTeX. A leitura não depende de acessar o GitHub ou outros serviços externos; use um ambiente local com suporte a notebooks e renderização de LaTeX. Consulte as referências bibliográficas na própria célula e responda às verificações de aprendizagem ao final dos tópicos.
 
 ## Ferramentas para as práticas
 
