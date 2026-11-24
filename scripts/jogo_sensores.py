@@ -18,6 +18,9 @@ CARTOES = [
     ('Pode operar de dia ou à noite', 'radar'),
     ('Geralmente atravessa nuvens; a chuva pode atenuar o sinal', 'radar'),
     ('Speckle: modelo multiplicativo simplificado Z = X x Y', 'radar'),
+    ('Sensores capazes de informar sobre a quantidade de clorofila nas folhas', 'optico'),
+    ('Sensores capazes de informar sobre o formato e quantidade de água nas folhas', 'radar'),
+    ('Sensores capazes de informar sobre a estrutura do dossel florestal e sua biomassa', 'radar'),
 ]
 
 
