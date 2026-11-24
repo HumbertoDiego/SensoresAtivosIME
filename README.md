@@ -94,7 +94,7 @@ jupyter nbconvert --to slides 05_mmq_weighted.ipynb --TagRemovePreprocessor.remo
 
 reset
 git init
-git remote add sa https://github.com/HumbertoDiego/SensoresAtivosIME
+git remote add sa https://github.com/HumbertoDiego/SensoresAtivosIME; git branch --set-upstream-to=sa/main 
 git add * ; git commit -m "aula update"; git push sa main --force
 -->
 
