@@ -7,3 +7,7 @@ matplotlib
 ipywidgets
 laspy
 open3d
+pystac-client>=0.8,<1
+requests>=2.32,<3
+tqdm>=4.66,<5
+rasterio>=1.4,<2
