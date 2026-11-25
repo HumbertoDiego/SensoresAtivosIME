@@ -20,7 +20,7 @@ NECESSIDADE DE ALTERAÇÕES
 
 | Aula | Notebook | Conteúdo |
 | --- | --- | --- |
-| 1 | [Visão geral sobre RADAR e LiDAR](01_introdu%C3%A7%C3%A3o.ipynb) | Qualidades e limitações do sensoriamento ativo; Conceituar RAR; Descrever a geometria RAR; Conceituar SAR; Descrever a geometria SAR; Conceituar LiDAR. |
+| 1 | [Sensores ativos e a tecnologia RADAR](01_introdu%C3%A7%C3%A3o.ipynb) | Qualidades e limitações do sensoriamento ativo; Conceituar RAR; Descrever a geometria RAR; Conceituar SAR; Descrever a geometria SAR; Conceituar LiDAR. |
 | 2 | [Processamento SAR I — resolução e formação da imagem](02_processamento_sar.ipynb) | Distinguir resolução espacial e amostragem; Explicar compressão de pulso e focalização SAR; Relacionar algoritmos de formação e qualidade da imagem. |
 | 3 | [Processamento SAR II — produtos, calibração e multilook](03_processamento_multilook.ipynb) | Interpretar produtos e planejar o processamento; Explicar calibração radiométrica e correção geométrica; Analisar multilook e o compromisso entre variância e detalhe. |
 | 4 | [Ruído speckle — estatística e filtragem](04_ruido_speckle.ipynb) | Explicar a origem física e o modelo estatístico do speckle; Comparar filtros espaciais e adaptativos; Avaliar homogeneidade, bordas e adequação à aplicação. |
